@@ -4,7 +4,22 @@ This repository demonstrates an issue that occurs when creating more than 100 co
 
 ## 🐛 Issue Description
 
-When attempting to create and configure 100+ collections in Payload CMS, the application may encounter performance issues, memory problems, or other unexpected behaviors. This reproduction case creates exactly 100 collections, each with a simple `name` field, to test the limits of Payload's collection handling.
+We're encountering a PostgreSQL error when working with a Payload CMS instance that has more than 100 collections.
+
+**The Problem:**
+Payload internally uses a table called `payload_locked_documents_rels` to manage document locking. This table has one column per collection. When the number of collections exceeds 100, PostgreSQL throws an error when trying to edit a document. The issue stems from how the locking mechanism constructs a SQL query that touches all those columns, resulting in a statement that exceeds PostgreSQL's function argument limit.
+
+**Error Message:**
+```
+ERROR: cannot pass more than 100 arguments to a function
+err: {
+  "type": "DatabaseError", 
+  "message": "cannot pass more than 100 arguments to a function",
+  "stack": "error: cannot pass more than 100 arguments to a function"
+}
+```
+
+This reproduction case creates exactly 100 collections, each with a simple `name` field, to demonstrate this PostgreSQL limitation in Payload's document locking system.
 
 ## 📦 Collections Structure
 
@@ -84,19 +99,22 @@ npm run dev
 2. Start the application with `npm run dev`
 3. Navigate to the admin panel at http://localhost:3000/admin
 4. Create a user account if needed
-5. Observe the behavior with 100 collections loaded
-6. Check for any console errors, performance issues, or memory usage
+5. Try to create a new document in ANY collection (e.g., Posts, Pages, or any Collection001-100)
+6. Attempt to save/edit the document
+7. **Expected Error**: PostgreSQL will throw "cannot pass more than 100 arguments to a function"
+8. Check the server console for the full error stack trace
+9. Note that this affects ALL collections, not just the 100+ ones
 
 ## 📋 Expected vs Actual Behavior
 
-**Expected**: The application should handle 100 collections smoothly without performance degradation or errors.
+**Expected**: The application should handle 100+ collections smoothly, allowing users to create and edit documents in any collection without database-level errors.
 
-**Actual**: [Document any issues you encounter here, such as:]
-- Slow loading times
-- Memory usage spikes
-- Bundle size issues
-- Admin panel performance problems
-- Any error messages
+**Actual**: When attempting to edit any document in any collection (after having 100+ collections configured), PostgreSQL throws an error:
+- Error occurs during document editing operations
+- PostgreSQL function argument limit exceeded (100 arguments max)
+- Related to `payload_locked_documents_rels` table structure
+- Affects all collections, not just the 100th+ ones
+- Makes the admin panel unusable for document editing
 
 ## 🛠 Technical Details
 
@@ -170,10 +188,62 @@ git push -u origin main
 
 When reporting this issue to Payload CMS:
 
-1. Reference this reproduction repository
-2. Include specific error messages or performance metrics
-3. Mention your system specifications
-4. Describe the expected vs actual behavior
+### 1. **Go to Payload repository:**
+[https://github.com/payloadcms/payload/issues](https://github.com/payloadcms/payload/issues)
+
+### 2. **Create new issue with title:**
+```
+PostgreSQL error: "cannot pass more than 100 arguments to a function" with 100+ collections
+```
+
+### 3. **Use this template:**
+
+```markdown
+## Describe the Bug
+PostgreSQL error when editing documents in Payload CMS with 100+ collections: "cannot pass more than 100 arguments to a function"
+
+## Error Details
+The issue occurs with Payload's document locking mechanism. The `payload_locked_documents_rels` table has one column per collection, and when there are 100+ collections, PostgreSQL's function argument limit is exceeded during document edit operations.
+
+**Error message:**
+```
+ERROR: cannot pass more than 100 arguments to a function
+err: {
+  "type": "DatabaseError",
+  "message": "cannot pass more than 100 arguments to a function"
+}
+```
+
+## Reproduction
+Repository: https://github.com/YOUR-USERNAME/payload-cms-100-collections-reproduction
+
+Steps:
+1. Clone the reproduction repository
+2. Follow the setup instructions in README.md
+3. Run `npm run dev`
+4. Navigate to admin panel at http://localhost:3000/admin
+5. Try to create/edit any document in any collection
+6. Observe the PostgreSQL error in console
+
+## Expected Behavior
+Users should be able to create and edit documents regardless of the number of collections configured.
+
+## Environment
+- Payload Version: 3.46.0
+- Database: PostgreSQL with @payloadcms/db-postgres
+- Next.js Version: 15.3.3
+- Node.js Version: [your version]
+- OS: macOS 24.5.0
+
+## Additional Context
+This appears to be a fundamental limitation in how Payload handles document locking with PostgreSQL when scaling to many collections. The `payload_locked_documents_rels` table structure may need to be redesigned to avoid PostgreSQL's function argument limits.
+```
+
+### 4. **Suggested labels:**
+- `bug`
+- `database`
+- `postgresql`
+- `collections`
 
 ## 📝 Notes
 
