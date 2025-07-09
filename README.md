@@ -119,11 +119,13 @@ npm run dev
 ## 🛠 Technical Details
 
 - **Payload CMS Version**: 3.46.0
-- **Database**: PostgreSQL with `@payloadcms/db-postgres`
+- **Database**: PostgreSQL with `@payloadcms/db-postgres` 3.46.0
 - **Next.js Version**: 15.3.3
-- **Node.js Version**: [Your version]
+- **Node.js Version**: 20.19.3
+- **React Version**: 19.1.0
 - **Collections Count**: Exactly 100 collections
 - **Collection Configuration**: Simple collections with single `name` field
+- **OS**: macOS (Darwin Kernel Version 24.5.0, ARM64)
 
 ## 📁 Repository Structure
 
@@ -228,12 +230,40 @@ Steps:
 ## Expected Behavior
 Users should be able to create and edit documents regardless of the number of collections configured.
 
-## Environment
-- Payload Version: 3.46.0
-- Database: PostgreSQL with @payloadcms/db-postgres
-- Next.js Version: 15.3.3
-- Node.js Version: [your version]
-- OS: macOS 24.5.0
+## Environment Info
+```
+Binaries:
+  Node: 20.19.3
+  npm: 10.8.2
+  Yarn: 1.22.19
+  pnpm: N/A
+Relevant Packages:
+  payload: 3.46.0
+  next: 15.3.3
+  @payloadcms/db-postgres: 3.46.0
+  @payloadcms/email-nodemailer: 3.46.0
+  @payloadcms/graphql: 3.46.0
+  @payloadcms/live-preview: 3.46.0
+  @payloadcms/live-preview-react: 3.46.0
+  @payloadcms/next/utilities: 3.46.0
+  @payloadcms/payload-cloud: 3.46.0
+  @payloadcms/plugin-form-builder: 3.46.0
+  @payloadcms/plugin-nested-docs: 3.46.0
+  @payloadcms/plugin-redirects: 3.46.0
+  @payloadcms/plugin-search: 3.46.0
+  @payloadcms/plugin-seo: 3.46.0
+  @payloadcms/richtext-lexical: 3.46.0
+  @payloadcms/translations: 3.46.0
+  @payloadcms/ui/shared: 3.46.0
+  react: 19.1.0
+  react-dom: 19.1.0
+Operating System:
+  Platform: darwin
+  Arch: arm64
+  Version: Darwin Kernel Version 24.5.0: Tue Apr 22 19:48:46 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8103
+  Available memory (MB): 16384
+  Available CPU cores: 8
+```
 
 ## Additional Context
 This appears to be a fundamental limitation in how Payload handles document locking with PostgreSQL when scaling to many collections. The `payload_locked_documents_rels` table structure may need to be redesigned to avoid PostgreSQL's function argument limits.
