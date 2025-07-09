@@ -72,6 +72,106 @@ export interface Config {
     media: Media;
     categories: Category;
     users: User;
+    'collection-001': Collection001;
+    'collection-002': Collection002;
+    'collection-003': Collection003;
+    'collection-004': Collection004;
+    'collection-005': Collection005;
+    'collection-006': Collection006;
+    'collection-007': Collection007;
+    'collection-008': Collection008;
+    'collection-009': Collection009;
+    'collection-010': Collection010;
+    'collection-011': Collection011;
+    'collection-012': Collection012;
+    'collection-013': Collection013;
+    'collection-014': Collection014;
+    'collection-015': Collection015;
+    'collection-016': Collection016;
+    'collection-017': Collection017;
+    'collection-018': Collection018;
+    'collection-019': Collection019;
+    'collection-020': Collection020;
+    'collection-021': Collection021;
+    'collection-022': Collection022;
+    'collection-023': Collection023;
+    'collection-024': Collection024;
+    'collection-025': Collection025;
+    'collection-026': Collection026;
+    'collection-027': Collection027;
+    'collection-028': Collection028;
+    'collection-029': Collection029;
+    'collection-030': Collection030;
+    'collection-031': Collection031;
+    'collection-032': Collection032;
+    'collection-033': Collection033;
+    'collection-034': Collection034;
+    'collection-035': Collection035;
+    'collection-036': Collection036;
+    'collection-037': Collection037;
+    'collection-038': Collection038;
+    'collection-039': Collection039;
+    'collection-040': Collection040;
+    'collection-041': Collection041;
+    'collection-042': Collection042;
+    'collection-043': Collection043;
+    'collection-044': Collection044;
+    'collection-045': Collection045;
+    'collection-046': Collection046;
+    'collection-047': Collection047;
+    'collection-048': Collection048;
+    'collection-049': Collection049;
+    'collection-050': Collection050;
+    'collection-051': Collection051;
+    'collection-052': Collection052;
+    'collection-053': Collection053;
+    'collection-054': Collection054;
+    'collection-055': Collection055;
+    'collection-056': Collection056;
+    'collection-057': Collection057;
+    'collection-058': Collection058;
+    'collection-059': Collection059;
+    'collection-060': Collection060;
+    'collection-061': Collection061;
+    'collection-062': Collection062;
+    'collection-063': Collection063;
+    'collection-064': Collection064;
+    'collection-065': Collection065;
+    'collection-066': Collection066;
+    'collection-067': Collection067;
+    'collection-068': Collection068;
+    'collection-069': Collection069;
+    'collection-070': Collection070;
+    'collection-071': Collection071;
+    'collection-072': Collection072;
+    'collection-073': Collection073;
+    'collection-074': Collection074;
+    'collection-075': Collection075;
+    'collection-076': Collection076;
+    'collection-077': Collection077;
+    'collection-078': Collection078;
+    'collection-079': Collection079;
+    'collection-080': Collection080;
+    'collection-081': Collection081;
+    'collection-082': Collection082;
+    'collection-083': Collection083;
+    'collection-084': Collection084;
+    'collection-085': Collection085;
+    'collection-086': Collection086;
+    'collection-087': Collection087;
+    'collection-088': Collection088;
+    'collection-089': Collection089;
+    'collection-090': Collection090;
+    'collection-091': Collection091;
+    'collection-092': Collection092;
+    'collection-093': Collection093;
+    'collection-094': Collection094;
+    'collection-095': Collection095;
+    'collection-096': Collection096;
+    'collection-097': Collection097;
+    'collection-098': Collection098;
+    'collection-099': Collection099;
+    'collection-100': Collection100;
     redirects: Redirect;
     forms: Form;
     'form-submissions': FormSubmission;
@@ -88,6 +188,106 @@ export interface Config {
     media: MediaSelect<false> | MediaSelect<true>;
     categories: CategoriesSelect<false> | CategoriesSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
+    'collection-001': Collection001Select<false> | Collection001Select<true>;
+    'collection-002': Collection002Select<false> | Collection002Select<true>;
+    'collection-003': Collection003Select<false> | Collection003Select<true>;
+    'collection-004': Collection004Select<false> | Collection004Select<true>;
+    'collection-005': Collection005Select<false> | Collection005Select<true>;
+    'collection-006': Collection006Select<false> | Collection006Select<true>;
+    'collection-007': Collection007Select<false> | Collection007Select<true>;
+    'collection-008': Collection008Select<false> | Collection008Select<true>;
+    'collection-009': Collection009Select<false> | Collection009Select<true>;
+    'collection-010': Collection010Select<false> | Collection010Select<true>;
+    'collection-011': Collection011Select<false> | Collection011Select<true>;
+    'collection-012': Collection012Select<false> | Collection012Select<true>;
+    'collection-013': Collection013Select<false> | Collection013Select<true>;
+    'collection-014': Collection014Select<false> | Collection014Select<true>;
+    'collection-015': Collection015Select<false> | Collection015Select<true>;
+    'collection-016': Collection016Select<false> | Collection016Select<true>;
+    'collection-017': Collection017Select<false> | Collection017Select<true>;
+    'collection-018': Collection018Select<false> | Collection018Select<true>;
+    'collection-019': Collection019Select<false> | Collection019Select<true>;
+    'collection-020': Collection020Select<false> | Collection020Select<true>;
+    'collection-021': Collection021Select<false> | Collection021Select<true>;
+    'collection-022': Collection022Select<false> | Collection022Select<true>;
+    'collection-023': Collection023Select<false> | Collection023Select<true>;
+    'collection-024': Collection024Select<false> | Collection024Select<true>;
+    'collection-025': Collection025Select<false> | Collection025Select<true>;
+    'collection-026': Collection026Select<false> | Collection026Select<true>;
+    'collection-027': Collection027Select<false> | Collection027Select<true>;
+    'collection-028': Collection028Select<false> | Collection028Select<true>;
+    'collection-029': Collection029Select<false> | Collection029Select<true>;
+    'collection-030': Collection030Select<false> | Collection030Select<true>;
+    'collection-031': Collection031Select<false> | Collection031Select<true>;
+    'collection-032': Collection032Select<false> | Collection032Select<true>;
+    'collection-033': Collection033Select<false> | Collection033Select<true>;
+    'collection-034': Collection034Select<false> | Collection034Select<true>;
+    'collection-035': Collection035Select<false> | Collection035Select<true>;
+    'collection-036': Collection036Select<false> | Collection036Select<true>;
+    'collection-037': Collection037Select<false> | Collection037Select<true>;
+    'collection-038': Collection038Select<false> | Collection038Select<true>;
+    'collection-039': Collection039Select<false> | Collection039Select<true>;
+    'collection-040': Collection040Select<false> | Collection040Select<true>;
+    'collection-041': Collection041Select<false> | Collection041Select<true>;
+    'collection-042': Collection042Select<false> | Collection042Select<true>;
+    'collection-043': Collection043Select<false> | Collection043Select<true>;
+    'collection-044': Collection044Select<false> | Collection044Select<true>;
+    'collection-045': Collection045Select<false> | Collection045Select<true>;
+    'collection-046': Collection046Select<false> | Collection046Select<true>;
+    'collection-047': Collection047Select<false> | Collection047Select<true>;
+    'collection-048': Collection048Select<false> | Collection048Select<true>;
+    'collection-049': Collection049Select<false> | Collection049Select<true>;
+    'collection-050': Collection050Select<false> | Collection050Select<true>;
+    'collection-051': Collection051Select<false> | Collection051Select<true>;
+    'collection-052': Collection052Select<false> | Collection052Select<true>;
+    'collection-053': Collection053Select<false> | Collection053Select<true>;
+    'collection-054': Collection054Select<false> | Collection054Select<true>;
+    'collection-055': Collection055Select<false> | Collection055Select<true>;
+    'collection-056': Collection056Select<false> | Collection056Select<true>;
+    'collection-057': Collection057Select<false> | Collection057Select<true>;
+    'collection-058': Collection058Select<false> | Collection058Select<true>;
+    'collection-059': Collection059Select<false> | Collection059Select<true>;
+    'collection-060': Collection060Select<false> | Collection060Select<true>;
+    'collection-061': Collection061Select<false> | Collection061Select<true>;
+    'collection-062': Collection062Select<false> | Collection062Select<true>;
+    'collection-063': Collection063Select<false> | Collection063Select<true>;
+    'collection-064': Collection064Select<false> | Collection064Select<true>;
+    'collection-065': Collection065Select<false> | Collection065Select<true>;
+    'collection-066': Collection066Select<false> | Collection066Select<true>;
+    'collection-067': Collection067Select<false> | Collection067Select<true>;
+    'collection-068': Collection068Select<false> | Collection068Select<true>;
+    'collection-069': Collection069Select<false> | Collection069Select<true>;
+    'collection-070': Collection070Select<false> | Collection070Select<true>;
+    'collection-071': Collection071Select<false> | Collection071Select<true>;
+    'collection-072': Collection072Select<false> | Collection072Select<true>;
+    'collection-073': Collection073Select<false> | Collection073Select<true>;
+    'collection-074': Collection074Select<false> | Collection074Select<true>;
+    'collection-075': Collection075Select<false> | Collection075Select<true>;
+    'collection-076': Collection076Select<false> | Collection076Select<true>;
+    'collection-077': Collection077Select<false> | Collection077Select<true>;
+    'collection-078': Collection078Select<false> | Collection078Select<true>;
+    'collection-079': Collection079Select<false> | Collection079Select<true>;
+    'collection-080': Collection080Select<false> | Collection080Select<true>;
+    'collection-081': Collection081Select<false> | Collection081Select<true>;
+    'collection-082': Collection082Select<false> | Collection082Select<true>;
+    'collection-083': Collection083Select<false> | Collection083Select<true>;
+    'collection-084': Collection084Select<false> | Collection084Select<true>;
+    'collection-085': Collection085Select<false> | Collection085Select<true>;
+    'collection-086': Collection086Select<false> | Collection086Select<true>;
+    'collection-087': Collection087Select<false> | Collection087Select<true>;
+    'collection-088': Collection088Select<false> | Collection088Select<true>;
+    'collection-089': Collection089Select<false> | Collection089Select<true>;
+    'collection-090': Collection090Select<false> | Collection090Select<true>;
+    'collection-091': Collection091Select<false> | Collection091Select<true>;
+    'collection-092': Collection092Select<false> | Collection092Select<true>;
+    'collection-093': Collection093Select<false> | Collection093Select<true>;
+    'collection-094': Collection094Select<false> | Collection094Select<true>;
+    'collection-095': Collection095Select<false> | Collection095Select<true>;
+    'collection-096': Collection096Select<false> | Collection096Select<true>;
+    'collection-097': Collection097Select<false> | Collection097Select<true>;
+    'collection-098': Collection098Select<false> | Collection098Select<true>;
+    'collection-099': Collection099Select<false> | Collection099Select<true>;
+    'collection-100': Collection100Select<false> | Collection100Select<true>;
     redirects: RedirectsSelect<false> | RedirectsSelect<true>;
     forms: FormsSelect<false> | FormsSelect<true>;
     'form-submissions': FormSubmissionsSelect<false> | FormSubmissionsSelect<true>;
@@ -98,7 +298,7 @@ export interface Config {
     'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
   };
   db: {
-    defaultIDType: string;
+    defaultIDType: number;
   };
   globals: {
     header: Header;
@@ -146,7 +346,7 @@ export interface UserAuthOperations {
  * via the `definition` "pages".
  */
 export interface Page {
-  id: string;
+  id: number;
   title: string;
   hero: {
     type: 'none' | 'highImpact' | 'mediumImpact' | 'lowImpact';
@@ -173,11 +373,11 @@ export interface Page {
             reference?:
               | ({
                   relationTo: 'pages';
-                  value: string | Page;
+                  value: number | Page;
                 } | null)
               | ({
                   relationTo: 'posts';
-                  value: string | Post;
+                  value: number | Post;
                 } | null);
             url?: string | null;
             label: string;
@@ -189,7 +389,7 @@ export interface Page {
           id?: string | null;
         }[]
       | null;
-    media?: (string | null) | Media;
+    media?: (number | null) | Media;
   };
   layout: (CallToActionBlock | ContentBlock | MediaBlock | ArchiveBlock | FormBlock)[];
   meta?: {
@@ -197,7 +397,7 @@ export interface Page {
     /**
      * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
      */
-    image?: (string | null) | Media;
+    image?: (number | null) | Media;
     description?: string | null;
   };
   publishedAt?: string | null;
@@ -212,9 +412,9 @@ export interface Page {
  * via the `definition` "posts".
  */
 export interface Post {
-  id: string;
+  id: number;
   title: string;
-  heroImage?: (string | null) | Media;
+  heroImage?: (number | null) | Media;
   content: {
     root: {
       type: string;
@@ -230,18 +430,18 @@ export interface Post {
     };
     [k: string]: unknown;
   };
-  relatedPosts?: (string | Post)[] | null;
-  categories?: (string | Category)[] | null;
+  relatedPosts?: (number | Post)[] | null;
+  categories?: (number | Category)[] | null;
   meta?: {
     title?: string | null;
     /**
      * Maximum upload file size: 12MB. Recommended file size for images is <500KB.
      */
-    image?: (string | null) | Media;
+    image?: (number | null) | Media;
     description?: string | null;
   };
   publishedAt?: string | null;
-  authors?: (string | User)[] | null;
+  authors?: (number | User)[] | null;
   populatedAuthors?:
     | {
         id?: string | null;
@@ -259,7 +459,7 @@ export interface Post {
  * via the `definition` "media".
  */
 export interface Media {
-  id: string;
+  id: number;
   alt?: string | null;
   caption?: {
     root: {
@@ -351,14 +551,14 @@ export interface Media {
  * via the `definition` "categories".
  */
 export interface Category {
-  id: string;
+  id: number;
   title: string;
   slug?: string | null;
   slugLock?: boolean | null;
-  parent?: (string | null) | Category;
+  parent?: (number | null) | Category;
   breadcrumbs?:
     | {
-        doc?: (string | null) | Category;
+        doc?: (number | null) | Category;
         url?: string | null;
         label?: string | null;
         id?: string | null;
@@ -372,7 +572,7 @@ export interface Category {
  * via the `definition` "users".
  */
 export interface User {
-  id: string;
+  id: number;
   name?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -420,11 +620,11 @@ export interface CallToActionBlock {
           reference?:
             | ({
                 relationTo: 'pages';
-                value: string | Page;
+                value: number | Page;
               } | null)
             | ({
                 relationTo: 'posts';
-                value: string | Post;
+                value: number | Post;
               } | null);
           url?: string | null;
           label: string;
@@ -470,11 +670,11 @@ export interface ContentBlock {
           reference?:
             | ({
                 relationTo: 'pages';
-                value: string | Page;
+                value: number | Page;
               } | null)
             | ({
                 relationTo: 'posts';
-                value: string | Post;
+                value: number | Post;
               } | null);
           url?: string | null;
           label: string;
@@ -495,7 +695,7 @@ export interface ContentBlock {
  * via the `definition` "MediaBlock".
  */
 export interface MediaBlock {
-  media: string | Media;
+  media: number | Media;
   id?: string | null;
   blockName?: string | null;
   blockType: 'mediaBlock';
@@ -522,12 +722,12 @@ export interface ArchiveBlock {
   } | null;
   populateBy?: ('collection' | 'selection') | null;
   relationTo?: 'posts' | null;
-  categories?: (string | Category)[] | null;
+  categories?: (number | Category)[] | null;
   limit?: number | null;
   selectedDocs?:
     | {
         relationTo: 'posts';
-        value: string | Post;
+        value: number | Post;
       }[]
     | null;
   id?: string | null;
@@ -539,7 +739,7 @@ export interface ArchiveBlock {
  * via the `definition` "FormBlock".
  */
 export interface FormBlock {
-  form: string | Form;
+  form: number | Form;
   enableIntro?: boolean | null;
   introContent?: {
     root: {
@@ -565,7 +765,7 @@ export interface FormBlock {
  * via the `definition` "forms".
  */
 export interface Form {
-  id: string;
+  id: number;
   title: string;
   fields?:
     | (
@@ -736,10 +936,1010 @@ export interface Form {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-001".
+ */
+export interface Collection001 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-002".
+ */
+export interface Collection002 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-003".
+ */
+export interface Collection003 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-004".
+ */
+export interface Collection004 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-005".
+ */
+export interface Collection005 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-006".
+ */
+export interface Collection006 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-007".
+ */
+export interface Collection007 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-008".
+ */
+export interface Collection008 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-009".
+ */
+export interface Collection009 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-010".
+ */
+export interface Collection010 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-011".
+ */
+export interface Collection011 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-012".
+ */
+export interface Collection012 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-013".
+ */
+export interface Collection013 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-014".
+ */
+export interface Collection014 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-015".
+ */
+export interface Collection015 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-016".
+ */
+export interface Collection016 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-017".
+ */
+export interface Collection017 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-018".
+ */
+export interface Collection018 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-019".
+ */
+export interface Collection019 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-020".
+ */
+export interface Collection020 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-021".
+ */
+export interface Collection021 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-022".
+ */
+export interface Collection022 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-023".
+ */
+export interface Collection023 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-024".
+ */
+export interface Collection024 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-025".
+ */
+export interface Collection025 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-026".
+ */
+export interface Collection026 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-027".
+ */
+export interface Collection027 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-028".
+ */
+export interface Collection028 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-029".
+ */
+export interface Collection029 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-030".
+ */
+export interface Collection030 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-031".
+ */
+export interface Collection031 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-032".
+ */
+export interface Collection032 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-033".
+ */
+export interface Collection033 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-034".
+ */
+export interface Collection034 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-035".
+ */
+export interface Collection035 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-036".
+ */
+export interface Collection036 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-037".
+ */
+export interface Collection037 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-038".
+ */
+export interface Collection038 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-039".
+ */
+export interface Collection039 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-040".
+ */
+export interface Collection040 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-041".
+ */
+export interface Collection041 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-042".
+ */
+export interface Collection042 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-043".
+ */
+export interface Collection043 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-044".
+ */
+export interface Collection044 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-045".
+ */
+export interface Collection045 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-046".
+ */
+export interface Collection046 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-047".
+ */
+export interface Collection047 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-048".
+ */
+export interface Collection048 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-049".
+ */
+export interface Collection049 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-050".
+ */
+export interface Collection050 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-051".
+ */
+export interface Collection051 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-052".
+ */
+export interface Collection052 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-053".
+ */
+export interface Collection053 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-054".
+ */
+export interface Collection054 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-055".
+ */
+export interface Collection055 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-056".
+ */
+export interface Collection056 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-057".
+ */
+export interface Collection057 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-058".
+ */
+export interface Collection058 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-059".
+ */
+export interface Collection059 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-060".
+ */
+export interface Collection060 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-061".
+ */
+export interface Collection061 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-062".
+ */
+export interface Collection062 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-063".
+ */
+export interface Collection063 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-064".
+ */
+export interface Collection064 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-065".
+ */
+export interface Collection065 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-066".
+ */
+export interface Collection066 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-067".
+ */
+export interface Collection067 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-068".
+ */
+export interface Collection068 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-069".
+ */
+export interface Collection069 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-070".
+ */
+export interface Collection070 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-071".
+ */
+export interface Collection071 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-072".
+ */
+export interface Collection072 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-073".
+ */
+export interface Collection073 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-074".
+ */
+export interface Collection074 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-075".
+ */
+export interface Collection075 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-076".
+ */
+export interface Collection076 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-077".
+ */
+export interface Collection077 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-078".
+ */
+export interface Collection078 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-079".
+ */
+export interface Collection079 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-080".
+ */
+export interface Collection080 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-081".
+ */
+export interface Collection081 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-082".
+ */
+export interface Collection082 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-083".
+ */
+export interface Collection083 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-084".
+ */
+export interface Collection084 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-085".
+ */
+export interface Collection085 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-086".
+ */
+export interface Collection086 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-087".
+ */
+export interface Collection087 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-088".
+ */
+export interface Collection088 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-089".
+ */
+export interface Collection089 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-090".
+ */
+export interface Collection090 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-091".
+ */
+export interface Collection091 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-092".
+ */
+export interface Collection092 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-093".
+ */
+export interface Collection093 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-094".
+ */
+export interface Collection094 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-095".
+ */
+export interface Collection095 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-096".
+ */
+export interface Collection096 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-097".
+ */
+export interface Collection097 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-098".
+ */
+export interface Collection098 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-099".
+ */
+export interface Collection099 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-100".
+ */
+export interface Collection100 {
+  id: number;
+  name: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "redirects".
  */
 export interface Redirect {
-  id: string;
+  id: number;
   /**
    * You will need to rebuild the website when changing this field.
    */
@@ -749,11 +1949,11 @@ export interface Redirect {
     reference?:
       | ({
           relationTo: 'pages';
-          value: string | Page;
+          value: number | Page;
         } | null)
       | ({
           relationTo: 'posts';
-          value: string | Post;
+          value: number | Post;
         } | null);
     url?: string | null;
   };
@@ -765,8 +1965,8 @@ export interface Redirect {
  * via the `definition` "form-submissions".
  */
 export interface FormSubmission {
-  id: string;
-  form: string | Form;
+  id: number;
+  form: number | Form;
   submissionData?:
     | {
         field: string;
@@ -784,18 +1984,18 @@ export interface FormSubmission {
  * via the `definition` "search".
  */
 export interface Search {
-  id: string;
+  id: number;
   title?: string | null;
   priority?: number | null;
   doc: {
     relationTo: 'posts';
-    value: string | Post;
+    value: number | Post;
   };
   slug?: string | null;
   meta?: {
     title?: string | null;
     description?: string | null;
-    image?: (string | null) | Media;
+    image?: (number | null) | Media;
   };
   categories?:
     | {
@@ -813,7 +2013,7 @@ export interface Search {
  * via the `definition` "payload-jobs".
  */
 export interface PayloadJob {
-  id: string;
+  id: number;
   /**
    * Input data provided to the job
    */
@@ -905,52 +2105,452 @@ export interface PayloadJob {
  * via the `definition` "payload-locked-documents".
  */
 export interface PayloadLockedDocument {
-  id: string;
+  id: number;
   document?:
     | ({
         relationTo: 'pages';
-        value: string | Page;
+        value: number | Page;
       } | null)
     | ({
         relationTo: 'posts';
-        value: string | Post;
+        value: number | Post;
       } | null)
     | ({
         relationTo: 'media';
-        value: string | Media;
+        value: number | Media;
       } | null)
     | ({
         relationTo: 'categories';
-        value: string | Category;
+        value: number | Category;
       } | null)
     | ({
         relationTo: 'users';
-        value: string | User;
+        value: number | User;
+      } | null)
+    | ({
+        relationTo: 'collection-001';
+        value: number | Collection001;
+      } | null)
+    | ({
+        relationTo: 'collection-002';
+        value: number | Collection002;
+      } | null)
+    | ({
+        relationTo: 'collection-003';
+        value: number | Collection003;
+      } | null)
+    | ({
+        relationTo: 'collection-004';
+        value: number | Collection004;
+      } | null)
+    | ({
+        relationTo: 'collection-005';
+        value: number | Collection005;
+      } | null)
+    | ({
+        relationTo: 'collection-006';
+        value: number | Collection006;
+      } | null)
+    | ({
+        relationTo: 'collection-007';
+        value: number | Collection007;
+      } | null)
+    | ({
+        relationTo: 'collection-008';
+        value: number | Collection008;
+      } | null)
+    | ({
+        relationTo: 'collection-009';
+        value: number | Collection009;
+      } | null)
+    | ({
+        relationTo: 'collection-010';
+        value: number | Collection010;
+      } | null)
+    | ({
+        relationTo: 'collection-011';
+        value: number | Collection011;
+      } | null)
+    | ({
+        relationTo: 'collection-012';
+        value: number | Collection012;
+      } | null)
+    | ({
+        relationTo: 'collection-013';
+        value: number | Collection013;
+      } | null)
+    | ({
+        relationTo: 'collection-014';
+        value: number | Collection014;
+      } | null)
+    | ({
+        relationTo: 'collection-015';
+        value: number | Collection015;
+      } | null)
+    | ({
+        relationTo: 'collection-016';
+        value: number | Collection016;
+      } | null)
+    | ({
+        relationTo: 'collection-017';
+        value: number | Collection017;
+      } | null)
+    | ({
+        relationTo: 'collection-018';
+        value: number | Collection018;
+      } | null)
+    | ({
+        relationTo: 'collection-019';
+        value: number | Collection019;
+      } | null)
+    | ({
+        relationTo: 'collection-020';
+        value: number | Collection020;
+      } | null)
+    | ({
+        relationTo: 'collection-021';
+        value: number | Collection021;
+      } | null)
+    | ({
+        relationTo: 'collection-022';
+        value: number | Collection022;
+      } | null)
+    | ({
+        relationTo: 'collection-023';
+        value: number | Collection023;
+      } | null)
+    | ({
+        relationTo: 'collection-024';
+        value: number | Collection024;
+      } | null)
+    | ({
+        relationTo: 'collection-025';
+        value: number | Collection025;
+      } | null)
+    | ({
+        relationTo: 'collection-026';
+        value: number | Collection026;
+      } | null)
+    | ({
+        relationTo: 'collection-027';
+        value: number | Collection027;
+      } | null)
+    | ({
+        relationTo: 'collection-028';
+        value: number | Collection028;
+      } | null)
+    | ({
+        relationTo: 'collection-029';
+        value: number | Collection029;
+      } | null)
+    | ({
+        relationTo: 'collection-030';
+        value: number | Collection030;
+      } | null)
+    | ({
+        relationTo: 'collection-031';
+        value: number | Collection031;
+      } | null)
+    | ({
+        relationTo: 'collection-032';
+        value: number | Collection032;
+      } | null)
+    | ({
+        relationTo: 'collection-033';
+        value: number | Collection033;
+      } | null)
+    | ({
+        relationTo: 'collection-034';
+        value: number | Collection034;
+      } | null)
+    | ({
+        relationTo: 'collection-035';
+        value: number | Collection035;
+      } | null)
+    | ({
+        relationTo: 'collection-036';
+        value: number | Collection036;
+      } | null)
+    | ({
+        relationTo: 'collection-037';
+        value: number | Collection037;
+      } | null)
+    | ({
+        relationTo: 'collection-038';
+        value: number | Collection038;
+      } | null)
+    | ({
+        relationTo: 'collection-039';
+        value: number | Collection039;
+      } | null)
+    | ({
+        relationTo: 'collection-040';
+        value: number | Collection040;
+      } | null)
+    | ({
+        relationTo: 'collection-041';
+        value: number | Collection041;
+      } | null)
+    | ({
+        relationTo: 'collection-042';
+        value: number | Collection042;
+      } | null)
+    | ({
+        relationTo: 'collection-043';
+        value: number | Collection043;
+      } | null)
+    | ({
+        relationTo: 'collection-044';
+        value: number | Collection044;
+      } | null)
+    | ({
+        relationTo: 'collection-045';
+        value: number | Collection045;
+      } | null)
+    | ({
+        relationTo: 'collection-046';
+        value: number | Collection046;
+      } | null)
+    | ({
+        relationTo: 'collection-047';
+        value: number | Collection047;
+      } | null)
+    | ({
+        relationTo: 'collection-048';
+        value: number | Collection048;
+      } | null)
+    | ({
+        relationTo: 'collection-049';
+        value: number | Collection049;
+      } | null)
+    | ({
+        relationTo: 'collection-050';
+        value: number | Collection050;
+      } | null)
+    | ({
+        relationTo: 'collection-051';
+        value: number | Collection051;
+      } | null)
+    | ({
+        relationTo: 'collection-052';
+        value: number | Collection052;
+      } | null)
+    | ({
+        relationTo: 'collection-053';
+        value: number | Collection053;
+      } | null)
+    | ({
+        relationTo: 'collection-054';
+        value: number | Collection054;
+      } | null)
+    | ({
+        relationTo: 'collection-055';
+        value: number | Collection055;
+      } | null)
+    | ({
+        relationTo: 'collection-056';
+        value: number | Collection056;
+      } | null)
+    | ({
+        relationTo: 'collection-057';
+        value: number | Collection057;
+      } | null)
+    | ({
+        relationTo: 'collection-058';
+        value: number | Collection058;
+      } | null)
+    | ({
+        relationTo: 'collection-059';
+        value: number | Collection059;
+      } | null)
+    | ({
+        relationTo: 'collection-060';
+        value: number | Collection060;
+      } | null)
+    | ({
+        relationTo: 'collection-061';
+        value: number | Collection061;
+      } | null)
+    | ({
+        relationTo: 'collection-062';
+        value: number | Collection062;
+      } | null)
+    | ({
+        relationTo: 'collection-063';
+        value: number | Collection063;
+      } | null)
+    | ({
+        relationTo: 'collection-064';
+        value: number | Collection064;
+      } | null)
+    | ({
+        relationTo: 'collection-065';
+        value: number | Collection065;
+      } | null)
+    | ({
+        relationTo: 'collection-066';
+        value: number | Collection066;
+      } | null)
+    | ({
+        relationTo: 'collection-067';
+        value: number | Collection067;
+      } | null)
+    | ({
+        relationTo: 'collection-068';
+        value: number | Collection068;
+      } | null)
+    | ({
+        relationTo: 'collection-069';
+        value: number | Collection069;
+      } | null)
+    | ({
+        relationTo: 'collection-070';
+        value: number | Collection070;
+      } | null)
+    | ({
+        relationTo: 'collection-071';
+        value: number | Collection071;
+      } | null)
+    | ({
+        relationTo: 'collection-072';
+        value: number | Collection072;
+      } | null)
+    | ({
+        relationTo: 'collection-073';
+        value: number | Collection073;
+      } | null)
+    | ({
+        relationTo: 'collection-074';
+        value: number | Collection074;
+      } | null)
+    | ({
+        relationTo: 'collection-075';
+        value: number | Collection075;
+      } | null)
+    | ({
+        relationTo: 'collection-076';
+        value: number | Collection076;
+      } | null)
+    | ({
+        relationTo: 'collection-077';
+        value: number | Collection077;
+      } | null)
+    | ({
+        relationTo: 'collection-078';
+        value: number | Collection078;
+      } | null)
+    | ({
+        relationTo: 'collection-079';
+        value: number | Collection079;
+      } | null)
+    | ({
+        relationTo: 'collection-080';
+        value: number | Collection080;
+      } | null)
+    | ({
+        relationTo: 'collection-081';
+        value: number | Collection081;
+      } | null)
+    | ({
+        relationTo: 'collection-082';
+        value: number | Collection082;
+      } | null)
+    | ({
+        relationTo: 'collection-083';
+        value: number | Collection083;
+      } | null)
+    | ({
+        relationTo: 'collection-084';
+        value: number | Collection084;
+      } | null)
+    | ({
+        relationTo: 'collection-085';
+        value: number | Collection085;
+      } | null)
+    | ({
+        relationTo: 'collection-086';
+        value: number | Collection086;
+      } | null)
+    | ({
+        relationTo: 'collection-087';
+        value: number | Collection087;
+      } | null)
+    | ({
+        relationTo: 'collection-088';
+        value: number | Collection088;
+      } | null)
+    | ({
+        relationTo: 'collection-089';
+        value: number | Collection089;
+      } | null)
+    | ({
+        relationTo: 'collection-090';
+        value: number | Collection090;
+      } | null)
+    | ({
+        relationTo: 'collection-091';
+        value: number | Collection091;
+      } | null)
+    | ({
+        relationTo: 'collection-092';
+        value: number | Collection092;
+      } | null)
+    | ({
+        relationTo: 'collection-093';
+        value: number | Collection093;
+      } | null)
+    | ({
+        relationTo: 'collection-094';
+        value: number | Collection094;
+      } | null)
+    | ({
+        relationTo: 'collection-095';
+        value: number | Collection095;
+      } | null)
+    | ({
+        relationTo: 'collection-096';
+        value: number | Collection096;
+      } | null)
+    | ({
+        relationTo: 'collection-097';
+        value: number | Collection097;
+      } | null)
+    | ({
+        relationTo: 'collection-098';
+        value: number | Collection098;
+      } | null)
+    | ({
+        relationTo: 'collection-099';
+        value: number | Collection099;
+      } | null)
+    | ({
+        relationTo: 'collection-100';
+        value: number | Collection100;
       } | null)
     | ({
         relationTo: 'redirects';
-        value: string | Redirect;
+        value: number | Redirect;
       } | null)
     | ({
         relationTo: 'forms';
-        value: string | Form;
+        value: number | Form;
       } | null)
     | ({
         relationTo: 'form-submissions';
-        value: string | FormSubmission;
+        value: number | FormSubmission;
       } | null)
     | ({
         relationTo: 'search';
-        value: string | Search;
+        value: number | Search;
       } | null)
     | ({
         relationTo: 'payload-jobs';
-        value: string | PayloadJob;
+        value: number | PayloadJob;
       } | null);
   globalSlug?: string | null;
   user: {
     relationTo: 'users';
-    value: string | User;
+    value: number | User;
   };
   updatedAt: string;
   createdAt: string;
@@ -960,10 +2560,10 @@ export interface PayloadLockedDocument {
  * via the `definition` "payload-preferences".
  */
 export interface PayloadPreference {
-  id: string;
+  id: number;
   user: {
     relationTo: 'users';
-    value: string | User;
+    value: number | User;
   };
   key?: string | null;
   value?:
@@ -983,7 +2583,7 @@ export interface PayloadPreference {
  * via the `definition` "payload-migrations".
  */
 export interface PayloadMigration {
-  id: string;
+  id: number;
   name?: string | null;
   batch?: number | null;
   updatedAt: string;
@@ -1293,6 +2893,906 @@ export interface UsersSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-001_select".
+ */
+export interface Collection001Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-002_select".
+ */
+export interface Collection002Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-003_select".
+ */
+export interface Collection003Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-004_select".
+ */
+export interface Collection004Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-005_select".
+ */
+export interface Collection005Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-006_select".
+ */
+export interface Collection006Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-007_select".
+ */
+export interface Collection007Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-008_select".
+ */
+export interface Collection008Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-009_select".
+ */
+export interface Collection009Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-010_select".
+ */
+export interface Collection010Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-011_select".
+ */
+export interface Collection011Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-012_select".
+ */
+export interface Collection012Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-013_select".
+ */
+export interface Collection013Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-014_select".
+ */
+export interface Collection014Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-015_select".
+ */
+export interface Collection015Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-016_select".
+ */
+export interface Collection016Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-017_select".
+ */
+export interface Collection017Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-018_select".
+ */
+export interface Collection018Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-019_select".
+ */
+export interface Collection019Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-020_select".
+ */
+export interface Collection020Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-021_select".
+ */
+export interface Collection021Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-022_select".
+ */
+export interface Collection022Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-023_select".
+ */
+export interface Collection023Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-024_select".
+ */
+export interface Collection024Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-025_select".
+ */
+export interface Collection025Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-026_select".
+ */
+export interface Collection026Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-027_select".
+ */
+export interface Collection027Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-028_select".
+ */
+export interface Collection028Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-029_select".
+ */
+export interface Collection029Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-030_select".
+ */
+export interface Collection030Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-031_select".
+ */
+export interface Collection031Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-032_select".
+ */
+export interface Collection032Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-033_select".
+ */
+export interface Collection033Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-034_select".
+ */
+export interface Collection034Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-035_select".
+ */
+export interface Collection035Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-036_select".
+ */
+export interface Collection036Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-037_select".
+ */
+export interface Collection037Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-038_select".
+ */
+export interface Collection038Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-039_select".
+ */
+export interface Collection039Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-040_select".
+ */
+export interface Collection040Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-041_select".
+ */
+export interface Collection041Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-042_select".
+ */
+export interface Collection042Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-043_select".
+ */
+export interface Collection043Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-044_select".
+ */
+export interface Collection044Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-045_select".
+ */
+export interface Collection045Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-046_select".
+ */
+export interface Collection046Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-047_select".
+ */
+export interface Collection047Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-048_select".
+ */
+export interface Collection048Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-049_select".
+ */
+export interface Collection049Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-050_select".
+ */
+export interface Collection050Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-051_select".
+ */
+export interface Collection051Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-052_select".
+ */
+export interface Collection052Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-053_select".
+ */
+export interface Collection053Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-054_select".
+ */
+export interface Collection054Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-055_select".
+ */
+export interface Collection055Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-056_select".
+ */
+export interface Collection056Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-057_select".
+ */
+export interface Collection057Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-058_select".
+ */
+export interface Collection058Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-059_select".
+ */
+export interface Collection059Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-060_select".
+ */
+export interface Collection060Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-061_select".
+ */
+export interface Collection061Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-062_select".
+ */
+export interface Collection062Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-063_select".
+ */
+export interface Collection063Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-064_select".
+ */
+export interface Collection064Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-065_select".
+ */
+export interface Collection065Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-066_select".
+ */
+export interface Collection066Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-067_select".
+ */
+export interface Collection067Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-068_select".
+ */
+export interface Collection068Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-069_select".
+ */
+export interface Collection069Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-070_select".
+ */
+export interface Collection070Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-071_select".
+ */
+export interface Collection071Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-072_select".
+ */
+export interface Collection072Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-073_select".
+ */
+export interface Collection073Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-074_select".
+ */
+export interface Collection074Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-075_select".
+ */
+export interface Collection075Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-076_select".
+ */
+export interface Collection076Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-077_select".
+ */
+export interface Collection077Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-078_select".
+ */
+export interface Collection078Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-079_select".
+ */
+export interface Collection079Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-080_select".
+ */
+export interface Collection080Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-081_select".
+ */
+export interface Collection081Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-082_select".
+ */
+export interface Collection082Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-083_select".
+ */
+export interface Collection083Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-084_select".
+ */
+export interface Collection084Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-085_select".
+ */
+export interface Collection085Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-086_select".
+ */
+export interface Collection086Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-087_select".
+ */
+export interface Collection087Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-088_select".
+ */
+export interface Collection088Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-089_select".
+ */
+export interface Collection089Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-090_select".
+ */
+export interface Collection090Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-091_select".
+ */
+export interface Collection091Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-092_select".
+ */
+export interface Collection092Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-093_select".
+ */
+export interface Collection093Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-094_select".
+ */
+export interface Collection094Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-095_select".
+ */
+export interface Collection095Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-096_select".
+ */
+export interface Collection096Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-097_select".
+ */
+export interface Collection097Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-098_select".
+ */
+export interface Collection098Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-099_select".
+ */
+export interface Collection099Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "collection-100_select".
+ */
+export interface Collection100Select<T extends boolean = true> {
+  name?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "redirects_select".
  */
 export interface RedirectsSelect<T extends boolean = true> {
@@ -1551,7 +4051,7 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
  * via the `definition` "header".
  */
 export interface Header {
-  id: string;
+  id: number;
   navItems?:
     | {
         link: {
@@ -1560,11 +4060,11 @@ export interface Header {
           reference?:
             | ({
                 relationTo: 'pages';
-                value: string | Page;
+                value: number | Page;
               } | null)
             | ({
                 relationTo: 'posts';
-                value: string | Post;
+                value: number | Post;
               } | null);
           url?: string | null;
           label: string;
@@ -1580,7 +4080,7 @@ export interface Header {
  * via the `definition` "footer".
  */
 export interface Footer {
-  id: string;
+  id: number;
   navItems?:
     | {
         link: {
@@ -1589,11 +4089,11 @@ export interface Footer {
           reference?:
             | ({
                 relationTo: 'pages';
-                value: string | Page;
+                value: number | Page;
               } | null)
             | ({
                 relationTo: 'posts';
-                value: string | Post;
+                value: number | Post;
               } | null);
           url?: string | null;
           label: string;
@@ -1661,14 +4161,14 @@ export interface TaskSchedulePublish {
     doc?:
       | ({
           relationTo: 'pages';
-          value: string | Page;
+          value: number | Page;
         } | null)
       | ({
           relationTo: 'posts';
-          value: string | Post;
+          value: number | Post;
         } | null);
     global?: string | null;
-    user?: (string | null) | User;
+    user?: (number | null) | User;
   };
   output?: unknown;
 }
